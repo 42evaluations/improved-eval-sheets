@@ -17,6 +17,8 @@ bigger than an integer and/or there are duplicates.
     * ```valgrind ./push_swap <input>```
     * ```funcheck -a ./push_swap <input>```
 
+⚠️ **'./push_swap "1 2 3"'** and **'./push_swap 1 2 3'** are (in most implementations) two different cases & therefore need to be tested separately
+
 if funcheck shows errors, do not fail directly:
 * compile again with the **-g** flag
 * run the program again: you will get more information about where **_exactly_** the error happened
@@ -29,7 +31,6 @@ if funcheck shows errors, do not fail directly:
     
     -> if no one can find it, **DO NOT FAIL JUST BECAUSE FUNCHECK SAYS SO**
 
-⚠️ **'./push_swap "1 2 3"'** and **'./push_swap 1 2 3'** are (in most implementations) two different cases & therefore need to be tested separately
 
 ### some arguments aren't integers
 
