@@ -46,8 +46,6 @@ if funcheck shows errors, do not fail directly:
 
 ⚠️ these should not be errors
 
-```./push_swap 01 2 3``` - why? integers with leading zeros are valid in C - try declaring ```int i = 0001``` - it will compile :)
-
 ### some arguments are bigger than an integer
 
 ⚠️ don't forget valgrind & funcheck!!
